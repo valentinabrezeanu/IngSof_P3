@@ -46,6 +46,9 @@ public class Date {
   public int getYear() {
     return year;
   }
+  public int secondYear() {
+    return year;
+  }
 
   /**
    * Constructs a Date object representing a specific day, month, and year.
@@ -60,6 +63,8 @@ public class Date {
     this.month = month;
     this.year = year;
   }
+
+
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
